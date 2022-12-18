@@ -1,0 +1,398 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Hans Elde</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1 class="headline">Hans Elde</h1>
+						<div class="content">
+                  <pre class="mock-json scanlines"><p>&#123;</p><p><span class="key">"author": </span> "Hans Elde",</p><p><span class="key">"username": </span>"@eldehan",</p><p><span class="key">"description": </span>"Software Engineer, Co-Creator of Skopos",</p><p><span class="key">"homepage": </span>"hanselde.com",</p><p><span class="key">"repository": </span>&#123;</p><p>  <span class="key">"type": </span>"Open-source",</p><p>  <span class="key">"url": </span>"github.com/eldehan"</p><p>  &#125;,</p><p><span class="key">"keywords": </span>[</p><p>     "node"</p><p>     "typescript"</p><p>     "html"</p><p>     "css"</p><p>     "postgresql"</p><p>  ],</p><p><span class="key">"devDependencies": </span>&#123;</p><p>  <span class="key">"caffeine": </span>"a lot",</p ><p>  <span class="key">"music": </span>"soundtracks"</p><p>  <span class="key">"internet": </span>"1000mbps",</p><p>  <span class="key">"editor": </span>"vscode"</p><p>  &#125;,</p><p>&#125;</p></pre>
+            </div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Intro</a></li>
+                <li><a href="#resume">Resume</a></li>
+								<li><a href="#skopos" class="skopos-button">Skopos</a></li>
+                <li><a href="#projects">projects</a></li>
+								<li><a href="#contact">Contact</a></li>
+                <!-- <li><a href="#elements">Elements</a></li> -->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major" id="intro-header">Hi, I'm Hans</h2>
+								<!-- <span class="image main" id="profile-pic"><img src="images/intro-pic.jpg" alt="" /></span> -->
+                <span class="image main" id="profile-pic"><img src="images/profile-square.jpg" alt="profile picture of hans" /></span>
+
+								<p>I'm a full-stack software engineer based in Seattle, Washington who is passionate about solving problems and fascinated by how technology is changing the world and disrupting industries.</p>
+                <p>I have experience programming with languages like JavaScript, TypeScript, Go, SQL, and HTML and CSS, and I'm comfortable working with tools like Docker, Git, and AWS.</p>
+								<p>Most recently, I co-created and developed <a href="#skopos"><span class="emphasis">Skopos</span></a>, an open-source API monitoring tool for testing multi-step API workflows, built with TypeScript, GraphQL, and the AWS CDK.</p>
+							</article>
+
+						<!-- Projects -->
+							<article id="projects">
+								<h2 class="major">Other Projects</h2>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td class="project-pic"><span class="image left project"><img src="images/requestbin.png" alt="wiresnoop interface image"></span></td>
+													<td class="project-cell"><h4>WireSnoop</h4><p>A RequestBin-like application for receiving and inspecting HTTP webhooks</p></td>
+													<td class="project-cell"><h4>Built with</h4><p>Node.js, React, MongoDB, PostgreSQL, Digital Ocean Droplet, Nginx</p></td>
+												</tr>
+												<tr>
+													<td class="project-pic"><span class="image left project"><img src="images/airlines.jpg" alt="airlines app image"></span></td>
+													<td class="project-cell"><h4>AirRouter</h4><p>An app to filter and display info about routes flown by several large airlines</p></td>
+													<td class="project-cell"><h4>Built with</h4><p>Node.js, React, Redux</p></td>
+												</tr>
+												<tr>
+													<td class="project-pic"><span class="image left project"><img src="images/contacts.jpg" alt="contacts app interface"></span></td>
+													<td class="project-cell"><h4>Contacts</h4><p>A contacts manager application</p></td>
+													<td class="project-cell"><h4>Built with</h4><p>Node.js, Express.js, PostgreSQL</p></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+              </article>
+
+						<!-- Skopos -->
+              <article id="skopos">
+								<span class="image skopos-logo main"><img src="https://skopos-api-monitoring.github.io/images/logos/SKOPOS_logo_inverted.png" alt="Skopos logo, a lighthouse" /></span>
+								<h3><span class="emphasis">Skopos</span> is an <span style="color: #e28027">open-source API monitoring tool</span> designed for testing multi-step API workflows in sequence and independent workflows in parallel.</h3>
+                <br>
+								<h4><span>What is API Monitoring?</span></h4>
+									<blockquote> API monitoring tools detect API failures by making requests to endpoints at specified intervals and by checking the validity of their response data. </blockquote>
+                <p></p>
+                <video class="image main" autoplay muted loop>
+                  <source src="videos/skopos-scheduling.mp4" type="video/mp4">
+                </video>
+                <a href="https://skopos-api-monitoring.github.io/" class="button case-study-button">Read the Case Study</a>
+              </article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Connect with me <span class="icon solid fa-paper-plane"></span></h2>
+                <p id="form-message"></p>
+								<form method="post" action="#" id="email-form">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" required/>
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="email" name="email" id="email" required/>
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4" required></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><button type="submit" class="primary">Send Message</button></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/hans-elde/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/eldehan" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</article>
+              <article id="resume">
+                <h2 class="major">Resume</h2>
+
+                <iframe src="./docs/Hans_Elde_Resume.pdf" height="1200px" width="800px" frameborder="0"></iframe>
+              </article>
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+
+              <ul class="icons">
+									<li><a href="https://www.linkedin.com/in/hans-elde/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/eldehan" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+            
+						<p class="copyright">&copy; Hans Elde. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
