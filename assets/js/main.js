@@ -18,9 +18,9 @@
     $form_message = $('#form-message')
 
   function sendmail() {
-    let fullName = $("name").val();
-    let userEmail = $("email").val();
-    let userMessage = $("message").val();
+    let fullName = $("#name").val();
+    let userEmail = $("#email").val();
+    let userMessage = $("#message").val();
 
     const contactParams = {
       from_name: fullName,
