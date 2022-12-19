@@ -432,10 +432,3 @@
     });
 
 })(jQuery);
-
-(function () {
-  emailjs.init('0Ag29JTY58HB9TTpN');
-
-
-})();
-
