@@ -3065,6 +3065,7 @@ button:disabled,
 .background-tint {
   background-color: rgba(15, 39, 118, 0.594);
   background-blend-mode: multiply;
+  height: 100vh;
 }
 
 #header a {
