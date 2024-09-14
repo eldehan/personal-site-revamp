@@ -62,4 +62,30 @@
   // Scrolly.
   $('.scrolly').scrolly();
 
+  var modals = document.querySelectorAll('.modal');
+  var images = document.querySelectorAll('.expand-image img');
+  var modalImgs = document.querySelectorAll('.modal-content');
+  var closeButtons = document.querySelectorAll('.close');
+
+  images.forEach((img, index) => {
+    img.onclick = function () {
+      modals[index].style.display = "block";
+      modalImgs[index].src = this.src;
+    }
+  });
+
+  closeButtons.forEach((closeBtn, index) => {
+    closeBtn.onclick = function () {
+      modals[index].style.display = "none";
+    }
+  });
+
+  window.onclick = function (event) {
+    modals.forEach((modal) => {
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+  }
+
 })(jQuery);
